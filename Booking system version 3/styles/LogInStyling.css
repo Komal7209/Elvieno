@@ -1,0 +1,10 @@
+﻿body {
+}
+#containerLogIn {
+    margin: 0 auto;
+        text-align:"center";
+}
+#rowStyling{
+    align-content:space-between;
+    flex-direction:row
+}

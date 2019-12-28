@@ -1,0 +1,81 @@
+﻿body{
+}
+#container {
+       flex: 1;
+    position: relative;
+   background-color:snow;
+   overflow:auto;
+   padding:2px;
+}
+
+/*.area{
+    display:inline-block;
+}*/
+
+
+#left {
+    background-color: aliceblue;
+    float: left;
+    width: 50%;
+    height: 670px;
+    display: inline-block;
+    position: absolute;
+    margin-top:0;
+   
+}
+
+#right {
+    flex-direction: column;
+    height: 670px;
+    position: relative;
+    top: 0px;
+    /*display:inline-block;*/
+}
+
+#form {
+    background-color: antiquewhite;
+    border-style: inset;
+    border-width: 2px;
+    float: right;
+    width: 50%;
+    margin-top: 0;
+    height:100%;
+    /*display: inline-block;*/
+    /*text-align:center;*/
+}
+
+#fb {
+    text-align: center;
+}
+
+#fbbutton {
+    margin-left: 30%;
+    margin-right: 30%;
+    /*background-color: #3b5998;*/
+}
+
+#login {
+    margin-top:auto;
+    float: right;
+    text-align: match-parent;
+}
+/*use below by typing class="benefits" in specific tag*/
+.benefits {
+    text-align: center;
+    justify-content: center;
+    height: 229px;
+    /*width: 140px;*/
+    /*position: relative;*/
+    /*background-color: blue;*/
+}
+
+.horizontal {
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 100%;
+    display: flex;
+     background-color: red;
+    /*margin: 0 auto;*/
+    /*justify-content: center;*/
+}

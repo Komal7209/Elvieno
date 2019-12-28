@@ -1,0 +1,43 @@
+﻿body {
+}
+#container{
+    flex:auto;
+    margin:5px 2px 2px 1px;
+}
+ol {
+    background-color: aliceblue;
+    padding: 20px;
+    list-style-type:none;
+    margin-top:2px;
+
+}
+    ol li {
+        background: #E6FFFE;
+        padding: 20px;
+        margin-left: 2px;
+        list-style-type: none;
+    }
+ul {
+    background: #F0FFFF;
+    padding: 3px;
+}
+
+ul li {
+    background-color:antiquewhite;
+    list-style-type:none;
+    margin:4px;
+
+}
+#color{
+    background:lavenderblush;
+}
+#termsColor{
+    background-color:snow;
+}
+#button{
+    align-items:center;
+    text-align:center;
+    align-content:center;
+    align-self:center;
+
+}
